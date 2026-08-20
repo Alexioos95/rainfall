@@ -1,6 +1,6 @@
-Introduction aux risques d'un code non protégé, plus particulièrement à propos de buffers avec possible overflow, à travers de petits exercices de recherche de failles de sécurité en ASM.
+Introduction aux risques d'un code vulnérable, plus particulièrement à propos de buffers susceptibles d'overflow, à travers de petits exercices de recherche de failles de sécurité en ASM.
 
-Le projet s'est effectué dans une VM minutieusement organisée par l'école, avec de très nombreuses sécurités désactivées, où l'élève doit chercher la faille avec son user actuel, et récupérer le mot de passe du suivant. Un compte rendu est écrit dans le ```walkthrough.md``` de chaque niveau, et une reconstruction du code C est présente dans le ```source.c``` fichier.
+Le projet s'est effectué dans une VM minutieusement configurée par l'école, avec de très nombreuses sécurités désactivées, dans laquelle l'élève doit rechercher la faille avec son utilisateur actuel et récupérer le mot de passe du suivant. Un compte rendu est écrit dans le fichier ```walkthrough.md``` de chaque niveau, et une reconstruction du code C est présente dans le ```source.c``` fichier.
 
 Failles de chaque niveau:
 
@@ -13,7 +13,7 @@ Failles de chaque niveau:
 6. Heap-based buffer overflow - Fonction interne
 7. Heap-based buffer overflow - Global Offset Table
 8. Heap-based buffer overflow - Out-of-bound read
-9. Heap-based buffer overflow - C++ vTable
+9. Heap-based buffer overflow - vTable C++
 
 Failles de chaque niveau bonus:
 
@@ -23,5 +23,5 @@ Failles de chaque niveau bonus:
 3. Erreur de logique
 
 Crédits:  
-[Alexis Payen](https://github.com/Alexioos95/) - Recherche de failles et écriture des comptes-rendus.  
-[Eli Ewu](https://github.com/Uweile) - Recherche de failles et relecture des comptes-rendus.
+[Alexis Payen](https://github.com/Alexioos95/) - Recherche de failles et écriture des comptes rendus.  
+[Eli Ewu](https://github.com/Uweile) - Recherche de failles et relecture des comptes rendus.
